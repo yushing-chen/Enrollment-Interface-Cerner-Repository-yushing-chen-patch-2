@@ -153,8 +153,9 @@ var es_url = "https://usvadceapp.lcahncrls.net/cern-mutual-auth-service/b1930.lc
       //console.log(es_url);
       alert(es_url);
       //window.open(es_url);
-      //window.location.replace(es_url);
-      window.location.href=es_url;		
+      window.location.replace(es_url);
+      //test window.location.href fail - awkward displayed	
+      //window.location.href=es_url;		
     }
   };
 
